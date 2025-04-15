@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "./backend/.venv/bin/python",  // macOS/Linux 경우
+    "python.autoComplete.extraPaths": [
+      "./backend/.venv/lib/python3.12/site-packages"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true
+  }
