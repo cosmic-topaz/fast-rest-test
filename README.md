@@ -8,11 +8,11 @@
 - JWT 기반 인증 (OAuth2)
 - CRUD API (유저 관리, 게시글 관리)
 - Docker 컨테이너 환경 구성
-- PostgreSQL 연동 및 ORM(SQLAlchemy) 활용
+- MySQL 연동 및 ORM(SQLAlchemy) 활용
 
 ## ⚙️ 기술 스택
 - FastAPI, Python
-- PostgreSQL, SQLAlchemy
+- MySQL, SQLAlchemy
 - Docker, CI/CD
 - OAuth2, JWT
 
