@@ -1,6 +1,7 @@
+# backend/app/models/board.py
+
 from sqlalchemy import Column, String, ForeignKey
 from app.models.base import Base
-
 
 class Board(Base):
     __tablename__ = "boards"

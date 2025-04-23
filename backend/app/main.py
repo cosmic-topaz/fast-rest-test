@@ -16,6 +16,13 @@ def read_root():
     }
 
 
+# uvicorn app.main:app --reload
 
+# Directory structure
+# 
+# backend
+# ├── app
+# │   ├──main.py
+# 
 
 

@@ -11,8 +11,8 @@ class BoardCreate(BoardBase):
 
 
 class BoardRead(BoardBase):
-    id: str
-    user_id: str
+    id: int
+    user_id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True # Pydantic v2.x에서 사용되는 설정

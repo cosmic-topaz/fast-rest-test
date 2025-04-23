@@ -27,7 +27,7 @@ pip install -r requirements.txt
 # 환경 변수 설정 (.env 파일 필요)
 cp .env.example .env
 
-# 서버 실행
+# 서버 실행	
 uvicorn main:app --reload
 ```
 
@@ -83,10 +83,10 @@ fast-rest-test/
 	전체 개발 작업 분해표 (Issue List) 
 
 0. 프로젝트 환경 세팅
-- [ ] FastAPI 프로젝트 구조 생성
-- [ ] MySQL 연결 (SQLAlchemy + Alembic)
+- [x] FastAPI 프로젝트 구조 생성
+- [x] MySQL 연결 (SQLAlchemy + Alembic)
 - [ ] JWT 인증 시스템 구축
-- [ ] Docker + docker-compose 세팅
+- [x] Docker + docker-compose 세팅
 - [ ] Swagger 자동 문서화 설정
 
 1. 유저 (소비자) 기능
@@ -95,6 +95,20 @@ fast-rest-test/
 - [ ] 마이페이지 (내 예약 목록, 프로필 편집)
 - [ ] 푸시 알림 토큰 등록 API
 - [ ] 회원탈퇴 / 비활성화
+
+    
+"""
+## 🧩 MVP 기능 1: 유저 회원가입 & 로그인 (JWT 기반)
+
+### 🛠️ 할 작업 #todo
+	• [ ]	/signup — 회원가입 (Pydantic 검증 + 비밀번호 해시)
+	• [ ]	/login — 로그인 → JWT 발급
+	• [ ]	/me — 토큰으로 유저 정보 확인 (인증 필요)
+
+### 💡 이유
+	• [ ]	앞으로 생기는 모든 API는 유저 인증이 기본임
+	• [ ]	모바일 앱 연동 시에도 토큰 인증부터 필요
+"""
 
 2. 서비스 공급자 (청소 기사) 기능
 - [ ] 기사 회원가입 (정보 입력 + 인증 문서 업로드)

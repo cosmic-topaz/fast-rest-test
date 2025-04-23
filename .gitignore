@@ -1,5 +1,7 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,reactnative,python,macos
+$)C# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,reactnative,python,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,reactnative,python,macos
+
+docs/
 
 ### macOS ###
 # General
